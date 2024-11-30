@@ -3,7 +3,7 @@ left = 0;
 up = 0;
 down = 0;
 
-velocidad = 0.5;
+velocidad = 4;
 
 vida_maxima = 20;
 cant_vida = vida_maxima;
@@ -22,3 +22,5 @@ new_dir = 0;
 game_set_speed(60, 30); // 60 FPS Y 30 UPS globalmente
 tiempo_dano = 0;
 intervalo_dano = 1 * 30;
+
+last_dir = 1;
