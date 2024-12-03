@@ -2,11 +2,15 @@ right = 0;
 left = 0;
 up = 0;
 down = 0;
+run = 0;
 
 velocidad = 4;
 
 vida_maxima = 20;
 cant_vida = vida_maxima;
+
+estamina_maxima = 20;
+cant_estamina = estamina_maxima;
 
 horizontal = 0;
 vertical = 0;
@@ -20,7 +24,7 @@ multiplicador = 0;
 new_dir = 0;
 
 game_set_speed(60, 30); // 60 FPS Y 30 UPS globalmente
-tiempo_dano = 0;
-intervalo_dano = 1 * 30;
+tiempo = 0;
+intervalo = 1 * 30;
 
 last_dir = 1;
