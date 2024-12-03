@@ -12,6 +12,9 @@ cant_vida = vida_maxima;
 estamina_maxima = 20;
 cant_estamina = estamina_maxima;
 
+mana_maxima = 20;
+cant_mana = mana_maxima;
+
 horizontal = 0;
 vertical = 0;
 

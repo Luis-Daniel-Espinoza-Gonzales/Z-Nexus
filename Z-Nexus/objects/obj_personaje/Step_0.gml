@@ -4,21 +4,29 @@ up = keyboard_check(ord("W")) || keyboard_check(vk_up);
 down = keyboard_check(ord("S")) || keyboard_check(vk_down);
 run = keyboard_check(vk_shift);
 
+if(cant_mana < mana_maxima){
+	tiempo ++;
+	if(tiempo >= intervalo * 5){
+		cant_mana ++;
+		tiempo = 0;
+	}
+}
+
 if(run && cant_estamina >= 0){
 	velocidad = 8;
 	image_speed = 2;
-	tiempo += 1;
+	tiempo ++;
 	if(tiempo >= intervalo * 1){
-		cant_estamina -= 1;
+		cant_estamina --;
 		tiempo = 0;
 	}
 } else {
 	velocidad = 4;
 	image_speed = 1
-	tiempo += 1;
+	tiempo ++;
 	if(cant_estamina < estamina_maxima){
 		if(tiempo >= intervalo * 2){
-			cant_estamina += 1;
+			cant_estamina ++;
 			tiempo = 0;
 		}
 	}

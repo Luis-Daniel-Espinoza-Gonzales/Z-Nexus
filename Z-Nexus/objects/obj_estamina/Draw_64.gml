@@ -3,7 +3,7 @@ var espacio = 16;
 for(var i = 0; i < obj_personaje.estamina_maxima; i++){
 
 	if(i <= obj_personaje.cant_estamina){
-		draw_sprite(spr_estamina, 0, 16 + espacio * i, 64);
+		draw_sprite(spr_estamina, 0, 16 + espacio * i, 80);
 	}
 
 }
