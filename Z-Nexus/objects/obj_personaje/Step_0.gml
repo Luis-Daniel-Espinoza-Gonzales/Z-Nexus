@@ -81,3 +81,33 @@ if (horizontal != 0 || vertical != 0) {
 		sprite_index = spr_personaje_idle_left;
 	}
 }
+
+if (mouse_check_button_pressed(mb_right)) {
+    var click_x = mouse_x;
+    var click_y = mouse_y;
+    var clicked_object = noone;
+
+    // Itera sobre todas las instancias de objetos activos
+    with (all) {
+        // Verifica si el clic está dentro de los límites del objeto
+        if (point_in_rectangle(click_x, click_y, x, y, x + sprite_width, y + sprite_height)) {
+            clicked_object = id;
+            break; // Detener la búsqueda después de encontrar el primer objeto clickeado
+        }
+    }
+
+    // Si se encuentra un objeto, muestra el nombre
+    if (clicked_object != noone) {
+        // Usa 'object_index' para obtener el objeto y luego su nombre
+        show_debug_message("Has hecho clic en el objeto: " + string(object_get_name(clicked_object.object_index)));
+		
+		// Comprobar si la variable 'cant_vida' está definida en el objeto
+        if (variable_instance_exists(clicked_object, "cant_vida")) {
+            // Si la variable 'cant_vida' está definida, puedes modificarla
+            clicked_object.cant_vida -= 5;  // Ejemplo: Disminuir vida en 5
+        } else {
+            // Si la variable 'cant_vida' no está definida, maneja el caso apropiadamente
+            show_debug_message("El objeto no tiene la variable 'cant_vida'.");
+        }
+    }
+}
