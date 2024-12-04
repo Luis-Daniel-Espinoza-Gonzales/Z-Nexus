@@ -5,9 +5,9 @@ down = keyboard_check(ord("S")) || keyboard_check(vk_down);
 run = keyboard_check(vk_shift);
 
 if(cant_mana < mana_maxima){
-	tiempo ++;
+	tiempo += 1;
 	if(tiempo >= intervalo * 5){
-		cant_mana ++;
+		cant_mana += 1;
 		tiempo = 0;
 	}
 }
@@ -15,18 +15,18 @@ if(cant_mana < mana_maxima){
 if(run && cant_estamina >= 0){
 	velocidad = 8;
 	image_speed = 2;
-	tiempo ++;
+	tiempo += 1;
 	if(tiempo >= intervalo * 1){
-		cant_estamina --;
+		cant_estamina -= 1;
 		tiempo = 0;
 	}
 } else {
 	velocidad = 4;
 	image_speed = 1
-	tiempo ++;
+	tiempo += 1;
 	if(cant_estamina < estamina_maxima){
 		if(tiempo >= intervalo * 2){
-			cant_estamina ++;
+			cant_estamina += 1;
 			tiempo = 0;
 		}
 	}
@@ -102,12 +102,14 @@ if (mouse_check_button_pressed(mb_right)) {
         show_debug_message("Has hecho clic en el objeto: " + string(object_get_name(clicked_object.object_index)));
 		
 		// Comprobar si la variable 'cant_vida' está definida en el objeto
-        if (variable_instance_exists(clicked_object, "cant_vida")) {
+        /*
+		if (variable_instance_exists(clicked_object, "cant_vida")) {
             // Si la variable 'cant_vida' está definida, puedes modificarla
             clicked_object.cant_vida -= 5;  // Ejemplo: Disminuir vida en 5
         } else {
             // Si la variable 'cant_vida' no está definida, maneja el caso apropiadamente
             show_debug_message("El objeto no tiene la variable 'cant_vida'.");
         }
+		*/
     }
 }
