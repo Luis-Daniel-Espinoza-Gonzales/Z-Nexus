@@ -25,7 +25,7 @@ if(run && cant_estamina >= 0){
 	image_speed = 1
 	tiempo_estamina += 1;
 	if(cant_estamina < estamina_maxima){
-		if(tiempo_estaminaa >= intervalo * 2){
+		if(tiempo_estamina >= intervalo * 2){
 			cant_estamina += 1;
 			tiempo_estamina = 0;
 		}
