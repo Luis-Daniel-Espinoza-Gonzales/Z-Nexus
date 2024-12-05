@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
   "%Name":"spr_personaje_idle_left",
-  "bboxMode":0,
+  "bboxMode":1,
   "bbox_bottom":47,
-  "bbox_left":7,
-  "bbox_right":25,
+  "bbox_left":0,
+  "bbox_right":31,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,

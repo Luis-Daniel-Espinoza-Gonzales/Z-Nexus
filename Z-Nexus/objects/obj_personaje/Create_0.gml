@@ -28,6 +28,11 @@ new_dir = 0;
 
 game_set_speed(60, 30); // 60 FPS Y 30 UPS globalmente
 tiempo = 0;
+
+tiempo_vida = 0;
+tiempo_mana = 0;
+tiempo_estamina = 0;
+
 intervalo = 1 * 90;
 
 last_dir = 1;

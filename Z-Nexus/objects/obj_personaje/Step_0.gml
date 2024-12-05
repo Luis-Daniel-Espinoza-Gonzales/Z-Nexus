@@ -5,29 +5,29 @@ down = keyboard_check(ord("S")) || keyboard_check(vk_down);
 run = keyboard_check(vk_shift);
 
 if(cant_mana < mana_maxima){
-	tiempo += 1;
-	if(tiempo >= intervalo * 5){
+	tiempo_mana += 1;
+	if(tiempo_mana >= intervalo * 5){
 		cant_mana += 1;
-		tiempo = 0;
+		tiempo_mana = 0;
 	}
 }
 
 if(run && cant_estamina >= 0){
 	velocidad = 8;
 	image_speed = 2;
-	tiempo += 1;
-	if(tiempo >= intervalo * 1){
+	tiempo_estamina += 1;
+	if(tiempo_estamina >= intervalo * 0.5){
 		cant_estamina -= 1;
-		tiempo = 0;
+		tiempo_estamina = 0;
 	}
 } else {
 	velocidad = 4;
 	image_speed = 1
-	tiempo += 1;
+	tiempo_estamina += 1;
 	if(cant_estamina < estamina_maxima){
-		if(tiempo >= intervalo * 2){
+		if(tiempo_estaminaa >= intervalo * 2){
 			cant_estamina += 1;
-			tiempo = 0;
+			tiempo_estamina = 0;
 		}
 	}
 }
