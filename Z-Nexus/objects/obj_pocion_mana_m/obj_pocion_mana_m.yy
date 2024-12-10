@@ -1,18 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_inventario",
+  "%Name":"obj_pocion_mana_m",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":84,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_inventario",
+  "name":"obj_pocion_mana_m",
   "overriddenProperties":[],
   "parent":{
-    "name":"Camara",
-    "path":"folders/Objetos/Camara.yy",
+    "name":"Objetos",
+    "path":"folders/Objetos/Objetos.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_pocion_mana",
+    "path":"sprites/spr_pocion_mana/spr_pocion_mana.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

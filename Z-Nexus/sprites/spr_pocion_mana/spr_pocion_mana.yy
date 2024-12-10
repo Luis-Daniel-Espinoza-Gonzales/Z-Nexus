@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"spr_pocion_mana",
   "bboxMode":0,
-  "bbox_bottom":0,
+  "bbox_bottom":31,
   "bbox_left":0,
-  "bbox_right":0,
+  "bbox_right":31,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -14,9 +14,9 @@
   "frames":[
     {"$GMSpriteFrame":"","%Name":"2b23fe82-4cce-4bf0-8460-669270cf6749","name":"2b23fe82-4cce-4bf0-8460-669270cf6749","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
-  "gridX":0,
-  "gridY":0,
-  "height":64,
+  "gridX":8,
+  "gridY":8,
+  "height":32,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"4d40dff0-575f-4208-899f-6dba0e1decce","blendMode":0,"displayName":"default","isLocked":false,"name":"4d40dff0-575f-4208-899f-6dba0e1decce","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":64,
+  "width":32,
 }

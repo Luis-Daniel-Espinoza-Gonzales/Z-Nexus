@@ -57,6 +57,24 @@ if(open){
 	            draw_set_alpha(0.5);
 	        }
 			draw_sprite(spr_ranura_inventario, 0, posicion_x, posicion_y);
+			
+			if (objetos[i][0] != 0) {	
+            var obj_sprite = objetos[i][0];
+			var obj_cantidad = objetos[i][1];
+
+            var object_scale = 0.6;
+            var obj_width = sprite_get_width(obj_sprite);
+            var obj_height = sprite_get_height(obj_sprite);
+
+            var scale = min(ancho_sprite / obj_width, alto_sprite / obj_height) * object_scale;
+
+            var obj_x = posicion_x + (ancho_sprite - (obj_width * scale)) / 2;
+            var obj_y = posicion_y + (alto_sprite - (obj_height * scale)) / 2;
+
+            draw_sprite_ext(obj_sprite, 0, obj_x, obj_y, scale, scale, 0, c_white, 1);
+			
+			draw_text(posicion_x + 45, posicion_y + 40, "x" + string(obj_cantidad));
+        }
 		}
     }
 

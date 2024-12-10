@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"spr_pocion_vida",
   "bboxMode":0,
-  "bbox_bottom":0,
+  "bbox_bottom":31,
   "bbox_left":0,
-  "bbox_right":0,
+  "bbox_right":31,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -14,9 +14,9 @@
   "frames":[
     {"$GMSpriteFrame":"","%Name":"224c30e2-9ce4-4b67-be78-e389bdd71a0c","name":"224c30e2-9ce4-4b67-be78-e389bdd71a0c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
-  "gridX":0,
-  "gridY":0,
-  "height":64,
+  "gridX":8,
+  "gridY":8,
+  "height":32,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"4a622d1c-592a-4d9e-98cd-dc6142e8ec40","blendMode":0,"displayName":"default","isLocked":false,"name":"4a622d1c-592a-4d9e-98cd-dc6142e8ec40","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":64,
+  "width":32,
 }
