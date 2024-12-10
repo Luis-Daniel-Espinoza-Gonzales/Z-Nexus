@@ -7,13 +7,13 @@ run = 0;
 velocidad = 4;
 
 vida_maxima = 20;
-cant_vida = vida_maxima;
+cant_vida = vida_maxima - 19;
 
 estamina_maxima = 20;
-cant_estamina = estamina_maxima;
+cant_estamina = estamina_maxima - 19;
 
 mana_maxima = 20;
-cant_mana = mana_maxima;
+cant_mana = mana_maxima - 19;
 
 horizontal = 0;
 vertical = 0;
