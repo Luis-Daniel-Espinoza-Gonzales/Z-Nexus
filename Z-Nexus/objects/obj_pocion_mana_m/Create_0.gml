@@ -6,6 +6,12 @@ indicador_speed = 0.2; // Velocidad de animación
 cantidad = 1;
 max_cantidad = 16;
 
+consumible = true;
+
+tipo = consumible;
+
+equipar = false;
+
 function usar(ranura) {
     var inventario = instance_find(obj_inventario, 0); // Busca el inventario
 	

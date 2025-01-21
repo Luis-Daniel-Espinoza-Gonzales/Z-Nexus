@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Sprites/Objetos.yy",
+    "name":"Consumibles",
+    "path":"folders/Sprites/Objetos/Consumibles.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

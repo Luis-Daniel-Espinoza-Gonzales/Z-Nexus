@@ -10,8 +10,8 @@
   "name":"obj_pocion_vida_m",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos/Objetos.yy",
+    "name":"Consumibles",
+    "path":"folders/Objetos/Objetos/Consumibles.yy",
   },
   "parentObjectId":null,
   "persistent":false,

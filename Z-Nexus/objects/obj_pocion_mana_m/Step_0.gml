@@ -5,7 +5,7 @@ if (distance_to_object(player) < 32) {
     if (keyboard_check_pressed(ord("R"))) {
         var inventario = instance_find(obj_inventario, 0); // Busca la primera instancia de ObjInventario
         if (inventario != noone) {
-            inventario.agregar_objeto(id); // Llama a la función pasando la instancia del objeto
+            inventario.agregar_objeto(id, consumible, tipo, equipar); // Llama a la función pasando la instancia del objeto
         }
     }
 }

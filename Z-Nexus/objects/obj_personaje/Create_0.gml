@@ -36,3 +36,10 @@ tiempo_estamina = 0;
 intervalo = 1 * 90;
 
 last_dir = 1;
+
+dano = 1;
+
+equipo_corta = noone;
+equipo_larga = noone;
+equipo_escudo = noone;
+equipo_herramienta = noone;
