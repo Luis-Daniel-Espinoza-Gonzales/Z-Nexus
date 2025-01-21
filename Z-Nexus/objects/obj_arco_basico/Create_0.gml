@@ -11,6 +11,8 @@ tipo = "larga";
 
 equipar = false;
 
+nombre = "Arco basico";
+
 function usar(ranura) {
     var inventario = instance_find(obj_inventario, 0); // Busca el inventario
 	

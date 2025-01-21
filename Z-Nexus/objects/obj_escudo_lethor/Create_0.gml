@@ -11,6 +11,8 @@ tipo = "escudo";
 
 equipar = false;
 
+nombre = "Escudo lethor";
+
 function usar(ranura) {
     var inventario = instance_find(obj_inventario, 0); // Busca el inventario
 	

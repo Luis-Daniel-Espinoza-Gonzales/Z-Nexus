@@ -35,6 +35,8 @@
     {"name":"inst_862EF0","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_128D0F62","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_55903181","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_40DC81F","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_55CAEC22","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -85,6 +87,8 @@
         {"$GMRInstance":"v1","%Name":"inst_862EF0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_862EF0","objectId":{"name":"obj_pocion_vida_m","path":"objects/obj_pocion_vida_m/obj_pocion_vida_m.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":768.0,"y":160.0,},
         {"$GMRInstance":"v1","%Name":"inst_128D0F62","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_128D0F62","objectId":{"name":"obj_tormenta_gelida","path":"objects/obj_tormenta_gelida/obj_tormenta_gelida.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":576.0,"y":256.0,},
         {"$GMRInstance":"v1","%Name":"inst_55903181","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_55903181","objectId":{"name":"obj_escudo_lethor","path":"objects/obj_escudo_lethor/obj_escudo_lethor.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":160.0,},
+        {"$GMRInstance":"v1","%Name":"inst_40DC81F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_40DC81F","objectId":{"name":"obj_pocion_mana_m","path":"objects/obj_pocion_mana_m/obj_pocion_mana_m.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":960.0,"y":224.0,},
+        {"$GMRInstance":"v1","%Name":"inst_55CAEC22","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_55CAEC22","objectId":{"name":"obj_pocion_mana_m","path":"objects/obj_pocion_mana_m/obj_pocion_mana_m.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":960.0,"y":192.0,},
       ],"layers":[],"name":"Instances_01","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_3","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_3","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":50,"SerialiseWidth":50,"TileCompressedData":[
           -102,-2147483648,1,35,-44,32,1,37,-4,-2147483648,1,45,-44,42,1,47,-3,-2147483648,2,18,55,-44,52,1,57,

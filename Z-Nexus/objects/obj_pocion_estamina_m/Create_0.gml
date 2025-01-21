@@ -12,6 +12,8 @@ tipo = consumible;
 
 equipar = false;
 
+nombre = "Pocion estamina mediano";
+
 function usar(ranura) {
     var inventario = instance_find(obj_inventario, 0); // Busca el inventario
 	
@@ -30,7 +32,11 @@ function usar(ranura) {
                 // Si la cantidad llega a 0, vacía la ranura
                 if (inventario.objetos[ranura][1] <= 0) {
                     inventario.objetos[ranura][0] = 0; // Vacía la ranura
-					inventario.objetos[ranura][2] = 0; 
+					inventario.objetos[ranura][1] = 0;
+					inventario.objetos[ranura][2] = 0;
+					inventario.objetos[ranura][3] = 0;
+					inventario.objetos[ranura][4] = 0;
+					inventario.objetos[ranura][5] = 0; 
                 }
 
                 // Opcional: Feedback visual/sonoro

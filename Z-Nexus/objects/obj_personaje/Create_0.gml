@@ -39,7 +39,7 @@ last_dir = 1;
 
 dano = 1;
 
-equipo_corta = noone;
-equipo_larga = noone;
-equipo_escudo = noone;
-equipo_herramienta = noone;
+equipo_corta = 0;
+equipo_larga = 0;
+equipo_escudo = 0;
+equipo_herramienta = 0;

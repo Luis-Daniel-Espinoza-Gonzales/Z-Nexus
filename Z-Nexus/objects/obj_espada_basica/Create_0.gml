@@ -11,6 +11,8 @@ tipo = "corta";
 
 equipar = false;
 
+nombre = "Espada basica";
+
 function usar(ranura) {
     var inventario = instance_find(obj_inventario, 0); // Busca el inventario
 	

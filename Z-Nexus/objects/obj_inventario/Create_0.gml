@@ -8,7 +8,7 @@ inventario_lleno = false;
 
 // Inicializar cada slot vacío (0)
 for(var i = 0; i < cantidad; i++) {
-    objetos[i] = [0, 0, 0, 0, 0];
+    objetos[i] = [0, 0, 0, 0, 0, 0];
 }
 
 ranura_seleccionada = -1;
@@ -31,6 +31,7 @@ function agregar_objeto(objeto, consumible, tipo, equipa){
 				objetos[i][2] = objeto.usar;
 				objetos[i][3] = objeto.consumible;
 				objetos[i][4] = objeto.tipo;
+				objetos[i][5] = objeto.nombre;
 			
 				instance_destroy(objeto);
 				return;
@@ -55,7 +56,8 @@ function agregar_objeto(objeto, consumible, tipo, equipa){
 					objetos[i][1] = objeto.cantidad;
 					objetos[i][2] = objeto.usar;
 					objetos[i][3] = objeto.consumible;
-					objetos[i][4] = objeto.tipo
+					objetos[i][4] = objeto.tipo;
+					objetos[i][5] = objeto.nombre;
 			
 					instance_destroy(objeto);
 					return;

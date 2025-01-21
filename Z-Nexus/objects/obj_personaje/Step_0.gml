@@ -113,8 +113,3 @@ if (mouse_check_button_pressed(mb_right)) {
 		*/
     }
 }
-
-if(equipo_corta != noone){
-	show_debug_message("equipo corto");
-}
-
